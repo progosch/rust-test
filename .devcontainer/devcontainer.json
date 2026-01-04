@@ -4,10 +4,6 @@
 	"name": "Rust",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/rust:2-1-bullseye",
-	"features": {
-		"ghcr.io/devcontainers/features/rust:1": {},
-		"ghcr.io/cirolosapio/devcontainers-features/alpine-ohmyzsh:0": {}
-	},
 	"customizations": {
 		"vscode": {
 			"extensions": [
